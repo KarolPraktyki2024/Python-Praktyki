@@ -1,7 +1,7 @@
 lista = []
 
 while(True):
-    number = input("wprowadź numner do list:")
+    number = input("wprowadź numner do list (aby zakończyć wprowadzanie wpisz 'STOP'): ")
 
     if(number == "STOP"):
         break
