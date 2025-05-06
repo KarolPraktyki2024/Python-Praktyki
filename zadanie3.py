@@ -1,4 +1,4 @@
-s = 'Ala ma kota'
+s = input('Wprowadź string')
 print('1 - Zlicz Wyrazy')
 print('2 - Zlicz Litery')
 print('3 - Zbadaj Częstotliwość')
@@ -35,7 +35,8 @@ for i in instructions:
                 if(found == False):
                     listOccurs.append(1)
                     listLetters.append(j.lower())
-        print(listLetters)
-        print(listOccurs)
+
+        for j in range(len(listOccurs)):
+            print(listOccurs[j], "-", listLetters[j])
     else:
         print("Nieznana instrukcja")
